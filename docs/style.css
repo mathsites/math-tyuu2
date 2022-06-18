@@ -1,8 +1,31 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: black;
+  background-color:#a9ceec;
+  background-size:cover;
+  cursor:crosshair;
+ 
+}
+button {
+  height: 7%;
+  width: 15%;
+}
 
+iframe {
+  width:800px;
+  height: 800px; 
+  background:skyblue;
+  
+}
+
+.sa {
+  
+}
+body{
+  
+}
+.nemui{
+  color:#333c5e;
 }
 
 button {
@@ -12,7 +35,6 @@ button {
 iframe {
   width:800px;
   height: 500px; 
-  background:skyblue;
   
 }
 
@@ -25,22 +47,28 @@ img {
 
 
 h1{
-  color:white;
-  font-weight:bold;
-  font-family: 'Caveat', cursive;
+  color:#333c5e;
+
   
 }
+.sss {
+}
+.youtube {
+  color:#333c5e;
+}
+.watch {
+  color:#333c5e;
+}
 h2{
-  color:green;
+  color:#333c5e;
   font-family: serif;
 
 }
 h3{
-  background:skyblue;
   color:black;
 }
 h4{
-  color:green;
+  color:#333c5e;
 }
 .iframe2 {
   width: 1000px;
@@ -61,8 +89,66 @@ h4{
   color:red;
   font-size: 30px;
 }
+.nia {
+  background-color:black;
+}
+.a1 {
+  color:#333c5e;
+}
+.a2 {
+  color:#333c5e;
+}
+.a3 {
+  color:#333c5e;
+}
+.a4 {
+  color:#333c5e;
+}
+
+.a1:hover {
+  color:skyblue;
+  background-color:black;
+}
+.a2:hover  {
+  color:skyblue;
+  background-color:black;
+}
+.a3:hover  {
+color:skyblue;
+  background-color:black;
+}
+.a4:hover  {
+  color:skyblue;
+  background-color:black;
+}
+float {
+  
+  background-color:black;
+  color:skyblue;
+  font-size:30px;
+}
+float:hover{
+  
+  background-color:skyblue;
+  color:black;
+  font-size:30px;
+}
+
 html {
   
-  background-repeat: no-repeat;
-  background-size:cover;
+  
 }
+
+.oto {
+  
+  background-color:black;
+  color:skyblue;
+  font-size:30px;
+}
+.oto:hover{
+  
+  background-color:skyblue;
+  color:black;
+  font-size:30px;
+}
+
