@@ -7,6 +7,7 @@ setUserAgent(
 );
 
 function btn1Click(){
+  
   console.log("https://www.youtube.com/watch?v=" + element.value);
 document.getElementById("ifr").src="https://www.youtube.com/embed/" + element.value;
   if (window.navigator.userAgent != userAgent) {
@@ -51,4 +52,6 @@ function cc(){
 　window.open('https://math.005net.com/youten.php')
 
 }
+
+document.addEventListener('keypress', keypress_ivent);
 
