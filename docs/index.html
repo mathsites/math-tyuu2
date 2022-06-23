@@ -6,14 +6,31 @@
   <title>フィルター回避サイト</title>
   <link href="style.css" rel="stylesheet" type="text/css" />    
   <link rel="icon" href="a.ico">
-  <float>≡</float>
+  <div class="ham" id = "ham">
+	<float><span class="ham_line ham_line1"></span></float>
+	  <float><span class="ham_line ham_line2"></span></float> 
+	  <float><span class="ham_line ham_line3"></span></float>
+ 
+</div>
+
+
+ 
   <float onclick = "onns()">Discord</float>
   <float onclick = "onns()">Support</float>
+  <a href = "https://join.skype.com/yfBIPcMhAMrU"><float>Skype</float></a>
+
+  
   
   <script>
     function onns() {
       window.open("https://discord.gg/RgTUhFmKbH");
     }
+    const ham = document.getElementById('ham');
+    ham.addEventListener('click', function() {
+	     ham.classList.toggle('clicked');
+       console.log("Toggle!!")
+    })
+    
     
   </script>
   
@@ -36,10 +53,12 @@
 <body>
   <center class = "sa">
   <h1 style="text-align:center"><span class = "auto-input"></span></h1>
+    
   <h2 style="text-align:center">Developer: cocoapc911</h2>
   <h2 style="text-align:center">Support: ここあ#0001 (Discord)</h2>
   <h2 style="text-align:center" class = "nemui"><span class = "auto-input2"> </span></h2>
   </center>
+  
   <center class= "sss">
   <h1 class = "youtube"style="text-align:center">Youtubeフィルター回避用</h1>
   <h4 class = "watch">watch?v=の後の文字列を入力してください。</h4>
@@ -52,7 +71,7 @@
   
   <h1 class = "a1" style="text-align:center">普通のサイト用（稀に接続が拒否されるサイトがあります。）</h1>
     <h4  class = "a4"style="text-align:center">https://bing.com</h4>
- <h4  class = "a4"style="text-align:center">https://bit.ly/3xoeD5Y 動作確認！ (放置OO))</h4>
+ <h4  class = "a4"style="text-align:center">https://bit.ly/3xoeD5Y 動作確認</h4>
 
   
   <script>
@@ -65,19 +84,29 @@
   </script>
     
 
+    <h4  class = "a4"style="text-align:center">https://hole-io.com/ 動作確認！ </h4>
     <h4  class = "a4"style="text-align:center">https://mario.xpixv.com/ 動作確認！ (マリオ)</h4>
 
     <h4  class = "a3"style="text-align:center">https://justfall.lol/ 動作確認(フォールガイズパクリゲー)</h4>
+    
     <h4  class = "a4"style="text-align:center">https://1v1.lol/ja 動作確認！ ((フォトナパクリゲー)ロード遅いです)</h4>
   
-  
+
 
   <input id = "content" type="text" size="40"  placeholder="ここに入力してください。">
   <input type="button" id="btn1" value="検索" onclick="clicks()" />
-   <p><iframe class = "iframe2" src="" id="ifr2" width="300" height="300"></iframe><input class = "btnn"id = "bypass" type = "button" value = "例のボタン"onclick = "cc()"><h4 class = "sensei">⚠先生回避ボタン⚠</h3</p>
+   <p><iframe class = "iframe2" src="" id="ifr2" width="1000" height="1000"></iframe><input class = "btnn"id = "bypass" type = "button" value = "例のボタン"onclick = "cc()"><h4 class = "sensei">⚠先生回避ボタン⚠</h3</p>
   <p>
+
+
+  <input id = "content" type="text" size="40"  placeholder="ここに入力してください。">
+  <input type="button" id="btn1" value="検索" onclick="clicker()" />
+    
+  
   </center>
- <h2>授業中に作りました()</h2>  
+  <blockquote class = "twitter-tweet" lamg="ja"><script src = "//platform.twitter.com/widgets.js" charset = "utf-8"></script> 
+
+
     
 
 
