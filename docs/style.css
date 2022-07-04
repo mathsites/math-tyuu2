@@ -6,6 +6,7 @@ html, body {
   cursor:crosshair;
  
 }
+
 button {
   height: 7%;
   width: 15%;
@@ -52,7 +53,6 @@ h1{
   
 }
 .sss {
-
 }
 .youtube {
   color:#333c5e;
@@ -72,7 +72,7 @@ h4{
   color:#333c5e;
 }
 .iframe2 {
-  width: 1000px;
+  width: 1200px;
   height: 700px;
 }
 .btnn{
@@ -124,20 +124,84 @@ color:skyblue;
 }
 float {
   
-  background-color:black;
+  background-color:#333c5e;
   color:skyblue;
   font-size:30px;
 }
 float:hover{
   
   background-color:skyblue;
-  color:black;
+  color:#333c5e;
   font-size:30px;
 }
 
 html {
   
   
+}
+.auto-input{
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+}
+.ham {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color: aqua;
+}
+.ham_line {
+	position: absolute;
+	left: 10px;
+	width: 20px;
+	height: 2px;
+	background-color: #333333;
+}
+.ham_line1 {
+	top: 10px;
+}
+.ham_line2 {
+	top: 18px;
+}
+.ham_line3 {
+	top: 26px;
+}
+.clicked .ham_line1 {
+	transform: rotate(45deg);
+	top: 20px;
+}
+.clicked .ham_line2 {
+	width: 0px;
+}
+.clicked .ham_line3 {
+	transform: rotate(-45deg);
+	top: 20px;
+}
+.menu {
+	width: 300px;
+	height: 300px;
+	background-color: aquamarine;
+}
+.auto-input:before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 0;
+	border-bottom: solid 2px #000;
+	transform: translateX(-50%);
+	animation: border_anim 3s linear forwards;
+}
+
+
+@keyframes border_anim {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 100%;
+	}
 }
 
 .oto {
@@ -151,6 +215,5 @@ html {
   background-color:skyblue;
   color:black;
   font-size:30px;
-
 }
 
