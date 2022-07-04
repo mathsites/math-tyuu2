@@ -73,4 +73,3 @@ function cc(){
 }
 
 document.addEventListener('keypress', keypress_ivent);
-
